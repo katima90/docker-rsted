@@ -6,5 +6,5 @@ EXPOSE 5000
 
 RUN git clone https://github.com/anru/rsted.git
 RUN pip install -r ./rsted/pip-requirements.txt
-CMD ./rsted/application.py
+CMD cd ./rsted ; ./application.py
 
