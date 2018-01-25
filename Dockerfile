@@ -1,4 +1,6 @@
 FROM python:2
+MAINTAINER katima90
+
 WORKDIR /usr/src/app
 EXPOSE 5000
 
